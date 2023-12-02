@@ -1,0 +1,29 @@
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.main-headings {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border: 2px rounded;
+  background-color: #ded6bf;
+  color: #0a273c;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}

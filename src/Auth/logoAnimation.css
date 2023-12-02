@@ -1,0 +1,23 @@
+.moving-text {
+  animation: moveMiddle 8s linear infinite;
+}
+
+@keyframes moveMiddle {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(-100px);
+  }
+}
+
+.my-section {
+  background-image: url(${p1});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
